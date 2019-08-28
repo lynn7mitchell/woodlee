@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Pinewood;
+     src: url("../PINEWOOD.TTF");
+   }
+/* General */
+
+body {
+    background: url(../img/wood-background.png);
+    background-size: cover;
+    color: #fff;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 32px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.navbar a {
+    font-family: Pinewood;
+    color: #fff;
+}
+
+h1,
+h3,
+h4 {
+    font-family: Pinewood;
+}
+
+h3 {
+    margin-top: 5%;
+}
+
+/* Home */
+
+.mobile-img {
+    display: none;
+}
+
+.carousel {
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 8rem;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.carousel-item img {
+    height: 81vh;
+    display: block;
+    margin: 0 auto;
+}
+
+.home-content .row {
+    margin-top: 100px;
+}
+
+.home-content img {
+    width: 100%;
+}
+
+.home-content video {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* About */
+
+.about-content {
+    margin-top: 5%;
+}
+
+.about-content .row {
+    margin-top: 100px;
+}
+
+.about-content img {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+/* Gallery */
+
+.gallery {
+    margin-top: 5%;
+}
+
+.gallery img {
+    width: 100%;
+    max-height: 200px;
+    margin-bottom: 20%;
+}
+
+.modal-body img {
+    width: 100%;
+}
+
+.gallery video {
+    width: 100%;
+}
+
+/* Contact */
+
+.contact-content {
+    margin-top: 5%;
+}
+
+.contact-content img {
+    width: 100%;
+}
+
+.contact-content .row {
+    margin-top: 100px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 600px) {
+    .carousel {
+        display: none;
+    }
+    .mobile-img {
+        display: block;
+    }
+}
